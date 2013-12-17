@@ -44,7 +44,12 @@
   padding:1px;
   height:25%;
   width:20%;
+  }
+  
+  #TheHungerGames:hover {
+  -webkit-transform: scale(1.5);
 }
+
 
 #CatchingFire {
   position:absolute;
@@ -55,6 +60,10 @@
   width:20%;
 }
 
+#CatchingFire:hover {
+  -webkit-transform: scale(1.5);
+}
+
 #MockingJay {
   position:absolute;
   top:32%;
@@ -62,6 +71,10 @@
   padding:1px;
   height:25%;
   width:20%;
+}
+
+#Mockingjay:hover {
+  -webkit-transform: scale(1.5);
 }
 
 #nav {
