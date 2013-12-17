@@ -1,0 +1,78 @@
+#KatnissE {
+  width:50%;
+  height:360px;
+  float:absolute;
+  border:.5em solid black;
+  margin-left:150px;
+  margin-top:5px;
+}
+
+#Katniss {
+  position:absolute;
+  width:100%;
+  top:15%;
+  right:2%;
+  padding:1px;
+}
+
+#Actor {
+  position:absolute;
+  top:121%;
+  left:35%;
+  text-align:justify;
+  padding:1em;
+}
+
+#Character {
+  position:absolute;
+  top:82%;
+  right:40%;
+  text-align:justify;
+  padding:1em;
+}
+
+#Skill1 {
+  height:25%;
+  width:30%;
+  border:.5em solid black;
+  float: right;
+  position:absolute;
+  right:5%;
+  top:90%;
+}
+
+#Skill2{
+  height:25%;
+  width:30%;
+  border:.5em solid black;
+  position:absolute;
+  top: 130%;
+  left:2%;
+}
+
+.Skill {
+  padding:6px;
+}
+
+#District12{
+  width:70%;
+  height:10%;
+}
+
+#Twelve {
+  position:absolute;
+  bottom:45%;
+  left:80%;
+}
+
+#footer {
+  position:absolute;
+  left:2%;
+  top:155%;
+  }
+
+body {
+  background-image:url('http://webstore.quiltropolis.net/stores_app/images/images_779/bella%20soft%20yellow.jpg');
+} 
+  
+

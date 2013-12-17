@@ -1,0 +1,75 @@
+#GaleH {
+  width:50%;
+  height:380px;
+  float:absolute;
+  border:.5em solid black;
+  margin-left:150px;
+  margin-top:5px;
+}
+
+#Gale {
+  position:absolute;
+  width:100%;
+  top:12%;
+  right:2%;
+  padding:1px;
+}
+
+#Actor {
+  position:absolute;
+  text-align:justify;
+  top:114%;
+  left:35%;
+  padding:1em;
+}
+
+#Character {
+  position:absolute;
+  text-align:justify;
+  top:85%;
+  right:40%;
+}
+
+#Skill1 {
+  height:25%;
+  width:30%;
+  border:.5em solid black;
+  float: right;
+  position:absolute;
+  right:4%;
+  top:89%;
+}
+
+#Skill2{
+  height:30%;
+  width:30%;
+  border:.5em solid black;
+  position:absolute;
+  top: 120%;
+  left:2%;
+}
+
+.Skill {
+  padding:6px;
+}
+
+#District12{
+  width:70%;
+  height:10%;
+}
+
+#Twelve {
+  position:absolute;
+  bottom:55%;
+  left:80%;
+}
+
+#footer {
+  position:absolute;
+  left:2%;
+  top:155%;
+  }
+
+body {
+  background-image:url('https://d2d00szk9na1qq.cloudfront.net/Product/acd07823-ddb2-45fc-ba0f-d0b2acf2ce9b/Images/Large_EH-841.jpg');
+} 

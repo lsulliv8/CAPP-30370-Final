@@ -1,0 +1,137 @@
+@keyframes move {
+  25% {transform: translate(0px, 400px);}
+}
+
+@keyframes colors {
+  0% {background-color:red;}
+  20% {background-color:orange;}
+  40% {background-color:yellow;}
+  60% {background-color:green;}
+  80% {background-color:blue;}
+  100% {background-color:purple;}
+}
+
+
+@keyframes flip { 
+  50% {transform: translate(500px, 0px);}
+}
+
+#Katniss {
+  position: absolute;
+  transform: rotateY(180deg);
+  margin-top: 180px;
+  animation:
+     flip 8s ease infinite
+}
+
+#Katniss {
+  height:75px;
+  width:80px;
+  position:absolute;
+  bottom:400px;
+  left:150px;
+}
+.Books {
+  width:100%;
+  padding:35px;
+  height:30%;
+}
+
+#TheHungerGames{
+  position:absolute;
+  top:32%;
+  left:8%;
+  padding:1px;
+  height:25%;
+  width:20%;
+}
+
+#CatchingFire {
+  position:absolute;
+  top:32%;
+  left:40%;
+  padding:1px;
+  height:25%;
+  width:20%;
+}
+
+#MockingJay {
+  position:absolute;
+  top:32%;
+  left:70%;
+  padding:1px;
+  height:25%;
+  width:20%;
+}
+
+#nav {
+  float:left;
+  position:absolute;
+  top:8%;
+  left:2%;
+  width:100%;
+}
+
+#Summary {
+  text-align:justify;
+  position:absolute;
+  top:56%;
+  left:2%;
+  
+}
+
+#header {
+  text-align:center;
+  position:relative;
+}
+
+#Quiz {
+  position:absolute;
+  left:72%;
+  top:117%;
+  border:2px solid black;
+  padding:7px 10px 7px 10px;
+}
+
+#Characters {
+  position:absolute;
+  top:110%;
+  left:2%;
+  padding:2px 1px 2px 2px;
+  width:230px;
+}
+
+#footer {
+  position:absolute;
+  left:2%;
+  top:130%;
+  }
+
+body {
+  background-image:url('http://www.amazing-walls.com.au/wp-content/uploads/wpsc/product_images/New%20Beats%20light-green%20no.1210.jpg');}
+
+h3 {
+  text-decoration:underline;
+  text-align:center;
+  position:relative;
+  bottom:40px;
+  }
+
+@media screen {
+    img {max-width:100%;}
+  
+  @media screen and (min-width:700px) {
+  .Katniss {width:50%; float:left; padding:1em;overflow:hidden; clear:both;}
+  
+  .Books {float:left; padding:1em; width:25%;overflow:hidden;clear:both;}
+  
+  #Summary {width:50%; float:left; padding:1em;overflow:hidden; clear:both;}
+  }
+  
+   @media screen and (min-width:1000px) {
+  .Katniss {width:48%; float:left; padding:1em;overflow:hidden; clear:both;}
+  
+  .Books {float:left; padding:1em; width:30%;overflow:hidden;clear:both;}
+  
+  #Summary {width:50%; float:left; padding:1em;overflow:hidden; clear:both;}
+  }
